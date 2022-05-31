@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="stylish.css">
+    <script src="myscript.js"></script>
+    <title>Dashboard</title>
+
+</head>
+<body color>
+    <div class="myform" id="openform">
+        <h2>Student Loginform</h2>
+        <form>
+             <div>
+                <input type="text"name="fullname"placeholder="please FullName here" class="txt">
+            </div>
+            <div>
+                <input type="email"name="email"placeholder="please Email here" class="txt" required>
+                <input type="text"name="call"placeholder="please Mobile No here" class="txt">
+                <input type="password"name="pass"placeholder="please password here" class="txt"required>
+                <inpute type="number"name="num">
+               
+            </div>
+            <div>
+                <input type="submit"name="submit"placeholder="submit" class="btn">
+                <input type="button"name="close"value="close" class="btn"  onclick="closeform()">
+            
+                
+               
+                <p class="link">Don't have an account</p>
+                <a class="wer"href="#">Sign up here</a>
+                <p class="liw">Log in with us</p>
+
+            </div>
+        </form>
+    </div>
+    <div class="topbar">
+        <h3>Dashboard panel</h3>
+        <ul>
+            <li>Hello,Admin</li>
+           <li><img src="t.jpg"width="16"height="16">
+        </li>
+        </ul>
+    </div>
+<!---topbar-->
+<div class="dashboard">
+    <div class="option">
+        <ul>
+            <li>no. of students</li>
+            <li>no. of Admission</li>
+            <li>no. of Enquiry</li>
+            <li>Branches</li>
+            <li>Marketing</li>
+            <li>Setting</li>
+        </ul>
+    </div>
+</div>
+<!--option-->
+   <div class="content">
+    <h1>Student <button type="button"class="but" onclick="openform()">+Add New</button></h1>
+    <div>
+        <p>All Students List</p>
+    </div>
+    <div>
+        <select>
+         <option>Bulk Action</option>
+         <option>Edit</option>
+         <option>Delete</option>  
+        </select>
+        <button type="button"class="btn">Apply</button>
+        <input type="text"name="search"placeholder="search here"class="searchbox">
+        <button type="submit"name="search"class="btn">search</button>
+
+    </div>
+    <table>
+        <tr>
+            <th>
+                <input type="checkbox">Sr No.</th>
+            <th>Name</th>
+            <th>EmailId</th>
+            <th>Contact No</th>
+            <th>Course</th>
+            <th>View</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tr class="strips">
+            <td>
+                <input type="checkbox"class="check">1.</td>
+               <td>Mehrab Ali</td>
+               <td>meh12@gmail.com</td>
+               <td>9350393758</td>
+               <td>PHP</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"class="check">2.</td>
+               <td>Ayush raj</td>
+               <td>Ayush12@gmail.com</td>
+               <td>6550393758</td>
+               <td>RUBY</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+        <tr  class="strips">
+            <td>
+                <input type="checkbox"class="check">3.</td>
+               <td>Azaz Ali</td>
+               <td>Azu12@gmail.com</td>
+               <td>9350393745</td>
+               <td>JAVA</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"class="check">4.</td>
+               <td>Sahrukh Ali</td>
+               <td>shah12@gmail.com</td>
+               <td>8089393758</td>
+               <td>PYTHONE</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+        <tr  class="strips">
+            <td>
+                <input type="checkbox"class="check">5.</td>
+               <td>Rehan Ali</td>
+               <td>Reh12@gmail.com</td>
+               <td>8767393758</td>
+               <td>HTML</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"class="check">6.</td>
+               <td>Kaif</td>
+               <td>kaif12@gmail.com</td>
+               <td>9350394598</td>
+               <td>DEVOPS</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+        <tr  class="strips">
+            <td>
+                <input type="checkbox"class="check">7.</td>
+               <td>Ramashish</td>
+               <td>ram12@gmail.com></td>
+               <td>9350394567</td>
+               <td>DSA</td>
+               <td><button type="button">View</button></td>
+               <td><button type="button">Edit</button></td>
+               <td><button type="button">Delete</button></td>
+              
+        </tr>
+
+
+
+    </table>
+</div>
+</body>
+</html>
